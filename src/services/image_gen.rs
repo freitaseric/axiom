@@ -25,9 +25,11 @@ pub fn generate_hp_bar(current: i32, max: i32, name: &str) -> Result<Vec<u8>> {
     let mut font_db = fontdb::Database::new();
     font_db.load_font_data(FONT_DATA.to_vec());
 
-    let mut opt = Options::default();
-    opt.fontdb = Arc::new(font_db);
-    opt.font_family = "Rajdhani".to_string();
+    let opt = Options {
+        fontdb: Arc::new(font_db),
+        font_family: "Rajdhani".to_string(),
+        ..Default::default()
+    };
 
     let tree = Tree::from_str(&svg_data, &opt)?;
 
