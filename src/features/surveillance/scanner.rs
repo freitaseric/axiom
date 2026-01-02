@@ -1,7 +1,7 @@
 use crate::features::dungeon::models::Boss;
 use crate::services::image_gen;
-use mongodb::bson::doc;
 use mongodb::Database;
+use mongodb::bson::doc;
 use regex::Regex;
 use std::sync::OnceLock;
 use twilight_http::Client;
