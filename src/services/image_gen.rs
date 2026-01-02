@@ -3,8 +3,8 @@ use resvg::usvg::{Options, Transform, Tree};
 use std::sync::Arc;
 use tiny_skia::Pixmap;
 
-static HP_BAR_TEMPLATE: &str = include_str!("../assets/hp_bar.svg");
-static FONT_DATA: &[u8] = include_bytes!("../assets/font.ttf");
+static HP_BAR_TEMPLATE: &str = include_str!("../../assets/hp_bar.svg");
+static FONT_DATA: &[u8] = include_bytes!("../../assets/font.ttf");
 
 pub fn generate_hp_bar(current: i32, max: i32, name: &str) -> Result<Vec<u8>> {
     let percentage = (current as f32 / max as f32).clamp(0.0, 1.0);
