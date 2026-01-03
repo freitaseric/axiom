@@ -9,6 +9,7 @@ Uma entidade de RPG Social que transforma conversas em batalhas de raid dentro d
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/freitaseric/axiom/ci.yml)
 ![License](https://img.shields.io/badge/license-MIT-blue)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f56cc9c-534a-46c4-8125-dd6aa9d2c9aa/deploy-status)](https://app.netlify.com/projects/axiom-bot/deploys)
 
 </div>
 
