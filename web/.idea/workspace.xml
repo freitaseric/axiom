@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0db71c9-6015-4b12-836e-1e6998b98533" name="Changes" comment="feat(web): setup netlify deploy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b0db71c9-6015-4b12-836e-1e6998b98533" name="Changes" comment="feat(docs): add deploy status to README.md">
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "freitaseric"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/freitaseric/axiom.git",
+    "accountId": "d994504b-2e9b-4881-b5e3-2cb3264f0cb1"
+  }
+}]]></component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -107,6 +119,7 @@
       <workItem from="1767390600768" duration="1622000" />
       <workItem from="1767392298706" duration="6741000" />
       <workItem from="1767403175590" duration="2006000" />
+      <workItem from="1767405319402" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="chore(web): setup website structure">
       <option name="closed" value="true" />
@@ -124,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767404908375</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(docs): add deploy status to README.md">
+      <option name="closed" value="true" />
+      <created>1767405351031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767405351031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +157,7 @@
     </ignored-roots>
     <MESSAGE value="chore(web): setup website structure" />
     <MESSAGE value="feat(web): setup netlify deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(web): setup netlify deploy" />
+    <MESSAGE value="feat(docs): add deploy status to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(docs): add deploy status to README.md" />
   </component>
 </project>
